@@ -572,15 +572,15 @@ ketik *.off delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner DanzBot*', 
-    owner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner DanzBot*',
-    mods: 'Maaf fitur ini hanya bisa digunakan oleh *Moderator DanzBot*',
+    rowner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner NightBot*', 
+    owner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner NightBot*',
+    mods: 'Maaf fitur ini hanya bisa digunakan oleh *Moderator NightBot*',
     premium: 'Maaf fitur ini hanya bisa digunakan oleh user *Premium*',
     group: 'Maaf fitur ini hanya bisa digunakan di *Group*',
     private: 'Maaf fitur ini hanya bisa digunakan di *Private*',
     admin: 'Maaf fitur ini hanya bisa digunakan *Admin*',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan fitur ini',
-    unreg: '── 「 DANZBOT REGISTERED😈🔥 」 ──\nHalo Cuy Sebelum Memakai *DanzBot* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar DanzBot.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *DanzBot* Dan Tidak Meminta Save Pada Owner Saya *Danz*',
+    unreg: '── 「 NIGHTBOT REGISTERED😈🔥 」 ──\nHalo Cuy Sebelum Memakai *NightBot* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar DanzBot.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *NightBot* Dan Tidak Meminta Save Pada Owner Saya *Nando*',
   }[type]
   if (msg) return m.reply(msg)
 }
